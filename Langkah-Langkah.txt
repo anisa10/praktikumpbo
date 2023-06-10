@@ -1,0 +1,20 @@
+Langkah-Langkah Push (Mengupload) Ke GitHub
+
+1. Buka GitHub
+2. Buat repository baru
+3. Buat nama repository baru. Jika sudah klik tombol Create Repository
+4. Inisialisasi Git 
+   - Buka terminal di project yang akan diupload : klik kanan — pilih Git Bash Here
+5. git init
+6. git add .
+7. git commit -m “pesan commit atau perubahan”
+8. Menambahkan Link Remote (git remote)
+   - Buka repository github. Copy link repository (jangan lupa tambahkan .git di akhir url)
+9. Menambahkan link remote:
+   - git remote add origin (menambahkan remote dengan nama origin)
+10. Mengirim ke Repository Github
+    - git push origin main atau git push origin master
+11. Selesai
+
+Note :
+git branch -M main untuk memindahkan master ke main
